@@ -37,7 +37,6 @@ function App() {
           tabIndex={1} // tabIndex of textarea
           editor={FocusEvent}
           //onChange={content => setContent(content)}
-          
           onBlur={newContent => setContent(newContent)} 
         />
       </Accordion>
